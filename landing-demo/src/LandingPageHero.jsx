@@ -4,6 +4,7 @@ import "./LandingPageHero.css";
 function LandingPageHero() {
   const [input, setInput] = useState("");
   const [message, setMessage] = useState("");
+  const [showForm, setShowForm] = useState(false);
   const validCredentials = ["physio@example.com", "123456"];
 
   const handleAccess = () => {
@@ -12,6 +13,12 @@ function LandingPageHero() {
     } else {
       setMessage("Error: Wrong details. Please enter a valid work email or ID number.");
     }
+  };
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    alert("Registration successful!");
+    setShowForm(false);
   };
 
   return (
@@ -41,6 +48,35 @@ function LandingPageHero() {
                 onChange={e => setInput(e.target.value)}
               />
               <button className="hero-btn" onClick={handleAccess}>Access Page</button>
+            </div>
+            <div className="hero-register">
+              <p className="hero-register-comment">
+                If you have not registered, please
+                <button className="hero-register-btn" onClick={() => setShowForm(true)}>register here</button>.
+              </p>
+              {showForm && (
+                <form className="hero-register-form" onSubmit={handleRegister}>
+                  <input
+                    type="text"
+                    className="hero-register-input"
+                    placeholder="Full Name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    className="hero-register-input"
+                    placeholder="Work Email"
+                    required
+                  />
+                  <input
+                    type="text"
+                    className="hero-register-input"
+                    placeholder="ID Number"
+                    required
+                  />
+                  <button type="submit" className="hero-btn">Register</button>
+                </form>
+              )}
             </div>
             {message && (
               <div className={message.startsWith("Access granted") ? "hero-success" : "hero-error"}>
