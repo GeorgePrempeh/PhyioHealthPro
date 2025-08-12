@@ -1,0 +1,79 @@
+.hero-container {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.hero-bg {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(43, 122, 120, 0.85);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.hero-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-tagline {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-main {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.hero-access {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.hero-btn {
+  background: #3aafa9;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-btn:hover {
+  background: #2b7a78;
+}
+
+.hero-input {
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #3aafa9;
+  font-size: 1rem;
+  min-width: 260px;
+}
+
+.hero-footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}

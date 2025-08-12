@@ -12,10 +12,10 @@ const LandingPage = () => (
     <main className="landing-main">
       <section className="landing-description">
         <p>
-          PhysioConnect is a microblogging social network designed exclusively for physiotherapists and healthcare professionals. It offers a dynamic platform to share clinical insights, quick tips, case reflections, and research updates in bite-sized posts.
+          PhysioConnect is a microblogging social network designed exclusively for physiotherapists and healthcare professionals. It offers a dynamic platform to share clinical insights, quick tips, case reflections, and research updates in bite sized posts.
         </p>
         <p>
-          Whether you're looking to exchange ideas, stay current with industry trends, or build a professional community, PhysioConnect makes it easy to connect, collaborate, and grow—one post at a time.
+          Whether you're looking to exchange ideas, stay current with industry trends, or build a professional community, PhysioConnect makes it easy to connect, collaborate, and grow one post at a time.
         </p>
       </section>
       <section className="landing-actions">

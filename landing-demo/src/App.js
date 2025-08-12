@@ -1,9 +1,19 @@
+//import LandingPageSplit from "./LandingPageSplit";
+//import "./LandingPageSplit.css";
+
+//function App() {
+  //return <LandingPageSplit />;
+//}
+
+//export default App;
+
+
 import React from "react";
-import LandingPage from "./LandingPage";
-import "./LandingPage.css";
+import LandingPageHero from "./LandingPageHero";
+import "./LandingPageHero.css";
 
 function App() {
-  return <LandingPage />;
+  return <LandingPageHero />;
 }
 
 export default App;
