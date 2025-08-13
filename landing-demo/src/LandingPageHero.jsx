@@ -36,17 +36,17 @@ function LandingPageHero() {
       <div className="hero-bg">
         <div className="hero-overlay">
           <header className="hero-header">
-            <h1>PhysioConnect</h1>
+            <h1>PhysioHealthConnect</h1>
             <p className="hero-tagline">
-              Microblogging for Physiotherapists & Healthcare Professionals
+              Microblogging for Physiotherapists and Healthcare Professionals
             </p>
           </header>
           <main className="hero-main">
             <p className="hero-description">
-              PhysioConnect is a microblogging social network designed exclusively for physiotherapists and healthcare professionals. It offers a dynamic platform to share clinical insights, quick tips, case reflections, and research updates in bite sized posts.
+              PhysioHealthConnect is a microblogging social network designed exclusively for physiotherapists and healthcare professionals. It offers a dynamic platform to share clinical insights, quick tips, case reflections, and research updates in bite-sized posts.
             </p>
             <p className="hero-description">
-              Whether you're looking to exchange ideas, stay current with industry trends, or build a professional community, PhysioConnect makes it easy to connect, collaborate, and grow one post at a time.
+              Whether you're looking to exchange ideas, stay up to date with industry trends, or build a professional community, PhysioHealthConnect makes it easy to connect, collaborate, and grow — one post at a time.
             </p>
             <div className="hero-access">
               <input
@@ -107,7 +107,7 @@ function LandingPageHero() {
             )}
           </main>
           <footer className="hero-footer">
-            <small>&copy; {new Date().getFullYear()} PhysioConnect. All rights reserved.</small>
+            <small>&copy; {new Date().getFullYear()} PhysioHealthConnect. All rights reserved.</small>
           </footer>
         </div>
       </div>
