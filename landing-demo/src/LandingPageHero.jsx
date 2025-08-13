@@ -19,7 +19,7 @@ function LandingPageHero() {
       cred => cred.user === input.trim() && cred.pass === password.trim()
     );
     if (found) {
-      setMessage("Access granted! Welcome to PhysioConnect.");
+      setMessage("Access granted! Welcome to PhysioHealthConnect.");
     } else {
       setMessage("Error: Wrong details. Please enter a valid work email or ID number.");
     }
